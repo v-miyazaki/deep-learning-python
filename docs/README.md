@@ -3,7 +3,8 @@
 # 参考
 
 一部で書籍「ゼロから作るDeep Learning」(O'REILLY)の提供リポジトリ上のソースコードを利用しています。
-[Githubリポジトリ](https://github.com/oreilly-japan/deep-learning-from-scratch)
+
+[参照Githubリポジトリ](https://github.com/oreilly-japan/deep-learning-from-scratch)
 
 # 用語について
 
