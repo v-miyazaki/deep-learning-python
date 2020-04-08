@@ -55,16 +55,16 @@ $x_1$に対して任意の重み($w_1$、$w_2$)を付与したものが任意の
 
 $$
 y = \begin{cases}
-0 &\text{ } (w_1x_1 + w_2x_2 \leqq \theta) \\
-1 &\text{ } (w_1x_1 + w_2x_2 > \theta) \\
+0 &\text{ } (w_1x_1 + w_2x_2 \leqq \theta) \cr
+1 &\text{ } (w_1x_1 + w_2x_2 > \theta) \cr
 \end{cases}
 $$
 
 これを発展して、$\theta=-b$とすることで右辺を$0$とする。$b$をバイアスと呼び、発火のしやすさを決定する。
 $$
 y = \begin{cases}
-0 &\text{ } (b + w_1x_1 + w_2x_2 \leqq 0) \\
-1 &\text{ } (b + w_1x_1 + w_2x_2 > 0) \\
+0 &\text{ } (b + w_1x_1 + w_2x_2 \leqq 0) \cr
+1 &\text{ } (b + w_1x_1 + w_2x_2 > 0) \cr
 \end{cases}
 $$
 
@@ -82,8 +82,8 @@ $
 
 $
 y = \begin{cases}
-0 &\text{ } (-0.7 + 0.5x_1 + 0.5x_2 \leqq 0) \\
-1 &\text{ } (-0.7 + 0.5x_1 + 0.5x_2 > 0) \\
+0 &\text{ } (-0.7 + 0.5x_1 + 0.5x_2 \leqq 0) \cr
+1 &\text{ } (-0.7 + 0.5x_1 + 0.5x_2 > 0) \cr
 \end{cases}
 $
 
@@ -91,10 +91,10 @@ $
 
 $
 y = \begin{cases}
-0 &\text{ } (x_1=0, x_2=0) \\
-0 &\text{ } (x_1=0, x_2=1) \\
-0 &\text{ } (x_1=1, x_2=0) \\
-1 &\text{ } (x_1=1, x_2=1) \\
+0 &\text{ } (x_1=0, x_2=0) \cr
+0 &\text{ } (x_1=0, x_2=1) \cr
+0 &\text{ } (x_1=1, x_2=0) \cr
+1 &\text{ } (x_1=1, x_2=1) \cr
 \end{cases}
 $
 
@@ -171,13 +171,13 @@ if __name__ == "__main__":
 活性化関数として、以下のようなものが代表的。
 
 * ステップ関数
-   $y = \begin{cases} 1 &\text{ } (x>0) \\ 0 &\text{ } (x \leqq 0)\end{cases}$
+   $y = \begin{cases} 1 &\text{ } (x>0) \cr 0 &\text{ } (x \leqq 0)\end{cases}$
 
 * シグモイド関数
    $y = {1 \over 1+e^{-x}}$
 
 * ReLU関数
-   $y = \begin{cases} x &\text{ } (x>0) \\ 0 &\text{ } (x \leqq 0)\end{cases}$
+   $y = \begin{cases} x &\text{ } (x>0) \cr 0 &\text{ } (x \leqq 0)\end{cases}$
 
 ## 行列の計算
 
