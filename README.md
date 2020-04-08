@@ -11,6 +11,11 @@
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
+# 参考
+
+一部で書籍「ゼロから作るDeep Learning」(O'REILLY)の提供リポジトリ上のソースコードを利用しています。
+[Githubリポジトリ](https://github.com/oreilly-japan/deep-learning-from-scratch)
+
 # 用語について
 
 ## numpy
